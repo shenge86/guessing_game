@@ -15,7 +15,7 @@ fn main() {
         let mut guess = String::new(); // mutable
 
         io::stdin().read_line(&mut guess) // &mut makes it a mutable reference
-            .expect("Failed to read line");
+            .expect("Human, please try another input.");
 
         let guess: u32 = match guess.trim().parse() {
             Ok(num) => num,

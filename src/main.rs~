@@ -10,7 +10,7 @@ fn main() {
     let mut i = 1;
     let imax = 5;
     while i <= imax {
-        println!("You have {} guesses left. Please input guess:", imax+1-i);
+        println!("Human, you have {} guesses left. Please input guess:", imax+1-i);
 
         let mut guess = String::new(); // mutable
 
