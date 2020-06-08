@@ -3,6 +3,7 @@ use std::cmp::Ordering;
 use rand::Rng;
 
 fn main() {
+    println!("GUESSING GAME");
     println!("Being bored at home, the computer decided to play a game against you.");
     println!("Human, guess the number between 1 and 100!");
     let secret_number = rand::thread_rng().gen_range(1,101);
